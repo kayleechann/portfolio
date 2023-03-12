@@ -26,68 +26,16 @@ nav {
 
 nav a{
     text-decoration: none;
-    font-weight: bold;
     font-size: 15px;
     margin-left: 35px;
     color: #2B3A55;
+    font-weight: bold;
 }
 
 .logo{
     font-size: 225%;
     margin-bottom: 0px;
     color: #D23369;
-}
-
-.subintro{
-    margin-top: 0;
-}
-
-.intro {
-    margin-left: 8%;
-    margin-top: 17%;
-    word-wrap: break-word;
-    color: #2B3A55;
-}
-
-.intro h1{
-    font-size: 50px;
-    color: black;
-    margin-bottom: 0px;
-    color: black;
-}
-
-
-.intro p{
-    margin-top: 7px;
-    margin-left:2px;
-    margin-bottom: 0;
-}
-
-span {
-    transition: color 0.5s ease-out 125ms
-}
-
-span:hover {
-  color: #FF1493;
-}
-
-.selfie {
-    width: 45%;
-    height: 80%;
-    position: absolute; 
-    right: 115px;
-    top: 27%;
-}
-
-.selfie img{
-    border-radius: 700px;
-    transition: bottom 0.5s, left 1s;
-    max-width: 100%;
-    height: auto;
-}
-
-.selfie:hover .yubabapic{
-    left: 45%;
 }
 
 .child {
@@ -108,24 +56,44 @@ span:hover {
   100% { transform: translateY(0); }
 }
 
-.btn {
-    cursor: pointer;
-    background-color: #D23369; 
-    border: none;
-    color: white;
-    margin-top: 15px;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
-    font-family: "Hind Guntur", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 0.2rem;
-  }
+.media {
+    width:100%;
+    margin-top: 50px;
+    height: 500px;
+    align-items: center;
+    background-color: #2B3A55;
+    align-items: center;
+    position: relative;
+    display: flex;
+    border-radius: 30px;
+}
 
-.btn:active {
-    background-color: #a84448;
-  }
+
+.media h1{
+    color: white;
+    text-align: center;
+}
+
+
+.mediabtn{
+    background-color: #D23369;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+ 
+.mediabtn:hover{
+    background-color: transparent;
+    border: 2px solid #D23369;
+    cursor: pointer;
+}
+
+.wow{
+    margin-left: 230px;
+}

@@ -1,0 +1,84 @@
+/*reset page*/
+html, body {
+    margin: 0;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: sans-serif;
+    background-color: #F2E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+  
+nav {
+    margin-top: 0;
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 35px;
+    color: #2B3A55;
+    font-weight: bold;
+}
+
+.logo{
+    font-size: 225%;
+    margin-bottom: 0px;
+    color: #D23369;
+}
+
+.yub-laugh{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 43%;
+    border-radius: 200px;
+}
+
+.aboutme {
+    position: relative;
+    left: 825px;
+    top: 10%;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+}
+
+h2 {
+    color: #D23369; 
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.description {
+    position: absolute;
+    margin-top: 0;
+}
+
+.child {
+    align-self: flex-end;
+    height: 50px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-25px); }
+  100% { transform: translateY(0); }
+}
