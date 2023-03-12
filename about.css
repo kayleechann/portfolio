@@ -54,6 +54,7 @@ nav a{
     overflow-wrap: break-word;
 }
 
+
 h2 {
     color: #D23369; 
     font-size: 50px;
@@ -62,7 +63,9 @@ h2 {
 
 .description {
     position: absolute;
+    color: #2B3A55;
     margin-top: 0;
+
 }
 
 .child {
